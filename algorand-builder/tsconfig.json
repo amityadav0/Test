@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "typeRoots": ["node_modules/@types", "node_modules/@algorand-builder/types-algosdk"],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/webpack"
+  ]
+}
